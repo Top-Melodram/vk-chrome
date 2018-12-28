@@ -1,0 +1,17 @@
+{
+  "name": "Русские фильмы Вконтакте",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "minimum_chrome_version": "36",
+  "app": {
+    "background": {
+      "scripts": ["main.js"]
+    }
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "sandbox": {
+    "pages": ["kinovk.html"]
+  }
+}
